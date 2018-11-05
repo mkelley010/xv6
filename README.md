@@ -1,4 +1,26 @@
-# xv6
+# About this project
+
+This project contains all my modifications made to xv6 as part of my operating systems class at Portland State University during the Summer 2018 term. xv6 was modified over 5 sub-projects that expanded features and functionality. These are:
+
+Project 1: Learning flow of control in xv6, implementing system calls and accessing process-specific information.
+
+Project 2: Adding groups and users for processes, timing process CPU usage and user-level commands for process information.
+
+Project 3: Improving process management and efficiency using linked lists (scheduling went from O(n) -> O(1), expanded console debugging with new control commands.
+
+Project 4: Optimizing process scheduling algorithm using multi-level feedback queues to promote process fairness.
+
+Project 5: Implementing file protections via permissions.
+
+NOTE: All the changes I made are wrapped in #CS333_P1, #CS333_P2 etc preprocessor directives where the number after P defines the project. This allowed for project-by-project changes to be easily understood, as well as simplifying debugging. Most changes were made to the following files:
+
+-proc.h
+-proc.c
+-sysproc.c
+-syscall.c
+-exec.c
+
+# About xv6
 xv6 is a re-implementation of Dennis Ritchie's and Ken Thompson's Unix
 Version 6 (v6).  xv6 loosely follows the structure and style of v6,
 but is implemented for a modern x86-based multiprocessor using ANSI C.
