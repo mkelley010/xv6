@@ -15,9 +15,13 @@ This project contains all my modifications made to xv6 as part of my operating s
 NOTE: All the changes I made are wrapped in **#CS333_P1, #CS333_P2** etc preprocessor directives where the number after P defines the project. This allowed for project-by-project changes to be easily understood, as well as simplifying debugging. Most changes were made to the following files:
 
 -proc.h
+
 -proc.c
+
 -sysproc.c
+
 -syscall.c
+
 -exec.c
 
 # About xv6
